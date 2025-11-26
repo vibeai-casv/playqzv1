@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "type": "text_mcq",
+    "category": "Fundamentals",
+    "difficulty": "easy",
+    "question": "In Machine Learning, what is the term for data that the model has never seen before, used to evaluate its performance?",
+    "options": [
+      "Training Data",
+      "Test Data",
+      "Feature Data",
+      "Raw Data"
+    ],
+    "correct_answer": "Test Data"
+  },
+  {
+    "id": 2,
+    "type": "text_mcq",
+    "category": "Fundamentals",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a type of Machine Learning?",
+    "options": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning",
+      "Deductive Learning"
+    ],
+    "correct_answer": "Deductive Learning"
+  },
+  {
+    "id": 3,
+    "type": "text_mcq",
+    "category": "LLMs",
+    "difficulty": "hard",
+    "question": "What does the 'P' stand for in 'GPT'?",
+    "options": [
+      "Processing",
+      "Pre-trained",
+      "Predictive",
+      "Programmed"
+    ],
+    "correct_answer": "Pre-trained"
+  },
+  {
+    "id": 4,
+    "type": "image_identify_logo",
+    "category": "Brands",
+    "difficulty": "easy",
+    "question": "Identify this AI research organization, known for creating ChatGPT.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+    "options": [
+      "DeepMind",
+      "OpenAI",
+      "Anthropic",
+      "Meta AI"
+    ],
+    "correct_answer": "OpenAI"
+  },
+  {
+    "id": 5,
+    "type": "image_identify_logo",
+    "category": "Brands",
+    "difficulty": "medium",
+    "question": "This 'smiling' logo belongs to which major hub for open-source ML models?",
+    "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+    "options": [
+      "GitHub",
+      "Hugging Face",
+      "Kaggle",
+      "PyTorch"
+    ],
+    "correct_answer": "Hugging Face"
+  },
+  {
+    "id": 6,
+    "type": "image_identify_person",
+    "category": "Personalities",
+    "difficulty": "medium",
+    "question": "Who is this figure, often called the 'Godfather of AI' and a 2024 Nobel Prize winner?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Geoffrey_E._Hinton%2C_2024_Nobel_Prize_Laureate_in_Physics_%28cropped1%29.jpg/400px-Geoffrey_E._Hinton%2C_2024_Nobel_Prize_Laureate_in_Physics_%28cropped1%29.jpg",
+    "options": [
+      "Sam Altman",
+      "Elon Musk",
+      "Geoffrey Hinton",
+      "Yann LeCun"
+    ],
+    "correct_answer": "Geoffrey Hinton"
+  },
+  {
+    "id": 7,
+    "type": "image_identify_person",
+    "category": "Personalities",
+    "difficulty": "easy",
+    "question": "Identify this CEO of OpenAI.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sam_Altman_November_2022.jpg/400px-Sam_Altman_November_2022.jpg",
+    "options": [
+      "Sam Altman",
+      "Satya Nadella",
+      "Sundar Pichai",
+      "Jensen Huang"
+    ],
+    "correct_answer": "Sam Altman"
+  },
+  {
+    "id": 8,
+    "type": "image_identify_person",
+    "category": "Personalities",
+    "difficulty": "medium",
+    "question": "Who is this co-founder of Coursera and Google Brain?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Andrew_Ng_WSJ_%282%29.jpg/400px-Andrew_Ng_WSJ_%282%29.jpg",
+    "options": [
+      "Fei-Fei Li",
+      "Andrew Ng",
+      "Demis Hassabis",
+      "Vitalik Buterin"
+    ],
+    "correct_answer": "Andrew Ng"
+  },
+  {
+    "id": 9,
+    "type": "text_mcq",
+    "category": "History",
+    "difficulty": "hard",
+    "question": "Which famous test, proposed in 1950, determines if a machine can exhibit intelligent behavior indistinguishable from a human?",
+    "options": [
+      "The Voigt-Kampff Test",
+      "The Turing Test",
+      "The Lovelace Test",
+      "The Imitation Game"
+    ],
+    "correct_answer": "The Turing Test"
+  },
+  {
+    "id": 10,
+    "type": "text_mcq",
+    "category": "Hardware",
+    "difficulty": "medium",
+    "question": "Which hardware component is most critical for training large Deep Learning models?",
+    "options": [
+      "CPU (Central Processing Unit)",
+      "GPU (Graphics Processing Unit)",
+      "SSD (Solid State Drive)",
+      "RAM (Random Access Memory)"
+    ],
+    "correct_answer": "GPU (Graphics Processing Unit)"
+  }
+]

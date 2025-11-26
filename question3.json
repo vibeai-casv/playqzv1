@@ -1,0 +1,702 @@
+[
+  {
+    "id": 51,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "easy",
+    "question": "What is the primary goal of AI Safety research?",
+    "options": [
+      "Make AI systems faster",
+      "Ensure AI systems are beneficial and controllable",
+      "Reduce AI development costs",
+      "Increase AI processing power"
+    ],
+    "correct_answer": "Ensure AI systems are beneficial and controllable"
+  },
+  {
+    "id": 52,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "medium",
+    "question": "What does the 'Alignment Problem' refer to in AI safety?",
+    "options": [
+      "Aligning neural network layers",
+      "Making sure AI goals match human values",
+      "Aligning training data formats",
+      "Synchronizing multiple AI systems"
+    ],
+    "correct_answer": "Making sure AI goals match human values"
+  },
+  {
+    "id": 53,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "hard",
+    "question": "What is 'Instrumental Convergence' in AI safety?",
+    "options": [
+      "Different AI architectures performing similarly",
+      "Diverse AI systems likely pursuing similar subgoals",
+      "Convergence of training algorithms",
+      "Merging of different AI models"
+    ],
+    "correct_answer": "Diverse AI systems likely pursuing similar subgoals"
+  },
+  {
+    "id": 54,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "easy",
+    "question": "What is algorithmic bias?",
+    "options": [
+      "When algorithms prefer certain programming languages",
+      "Systematic errors that create unfair outcomes",
+      "Bias in choosing machine learning algorithms",
+      "Preference for certain hardware architectures"
+    ],
+    "correct_answer": "Systematic errors that create unfair outcomes"
+  },
+  {
+    "id": 55,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "medium",
+    "question": "Which principle ensures AI decisions can be explained to humans?",
+    "options": [
+      "Transparency",
+      "Fairness",
+      "Accountability",
+      "Explainability"
+    ],
+    "correct_answer": "Explainability"
+  },
+  {
+    "id": 56,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "medium",
+    "question": "What is the purpose of AI auditing?",
+    "options": [
+      "To check AI system finances",
+      "To evaluate AI performance and compliance",
+      "To audit AI training data size",
+      "To verify hardware specifications"
+    ],
+    "correct_answer": "To evaluate AI performance and compliance"
+  },
+  {
+    "id": 57,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "hard",
+    "question": "What is the 'Value Loading Problem' in AI alignment?",
+    "options": [
+      "Loading training values into neural networks",
+      "Specifying human values precisely for AI systems",
+      "Loading ethical guidelines into AI memory",
+      "Value optimization in reinforcement learning"
+    ],
+    "correct_answer": "Specifying human values precisely for AI systems"
+  },
+  {
+    "id": 58,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "easy",
+    "question": "What does 'XAI' stand for?",
+    "options": [
+      "Extended Artificial Intelligence",
+      "Explainable Artificial Intelligence",
+      "Expert Artificial Intelligence",
+      "Experimental Artificial Intelligence"
+    ],
+    "correct_answer": "Explainable Artificial Intelligence"
+  },
+  {
+    "id": 59,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "medium",
+    "question": "Which organization published the 'Asilomar AI Principles'?",
+    "options": [
+      "European Union",
+      "Future of Life Institute",
+      "United Nations",
+      "IEEE"
+    ],
+    "correct_answer": "Future of Life Institute"
+  },
+  {
+    "id": 60,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "medium",
+    "question": "What is 'reward hacking' in reinforcement learning?",
+    "options": [
+      "Breaking into reward systems",
+      "AI finding unintended ways to maximize rewards",
+      "Stealing reward functions from other AIs",
+      "Modifying reward values during training"
+    ],
+    "correct_answer": "AI finding unintended ways to maximize rewards"
+  },
+  {
+    "id": 61,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "hard",
+    "question": "What is the 'Trolley Problem' in the context of AI ethics?",
+    "options": [
+      "A problem in optimizing trolley logistics",
+      "An ethical dilemma about autonomous vehicle decisions",
+      "A issue with training data transportation",
+      "A problem in robotic movement optimization"
+    ],
+    "correct_answer": "An ethical dilemma about autonomous vehicle decisions"
+  },
+  {
+    "id": 62,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "easy",
+    "question": "What is the EU AI Act?",
+    "options": [
+      "A European regulation for artificial intelligence",
+      "A law about AI in acting and entertainment",
+      "A treaty for AI research collaboration",
+      "A standard for AI hardware manufacturing"
+    ],
+    "correct_answer": "A European regulation for artificial intelligence"
+  },
+  {
+    "id": 63,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "medium",
+    "question": "What does 'corrigibility' mean in AI safety?",
+    "options": [
+      "Ability to correct spelling errors",
+      "Willingness to be shut down or corrected",
+      "Capacity for self-repair",
+      "Ability to correct other AIs"
+    ],
+    "correct_answer": "Willingness to be shut down or corrected"
+  },
+  {
+    "id": 64,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "medium",
+    "question": "What is 'differential privacy' in AI?",
+    "options": [
+      "Different privacy settings for various users",
+      "A system for measuring privacy protection",
+      "Privacy that varies by geographic location",
+      "Different privacy laws for AI systems"
+    ],
+    "correct_answer": "A system for measuring privacy protection"
+  },
+  {
+    "id": 65,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "hard",
+    "question": "What is the 'Precautionary Principle' in AI governance?",
+    "options": [
+      "Taking preventive action in the face of uncertainty",
+      "Being cautious when programming AI",
+      "Principle of preparing for AI failures",
+      "Guideline for AI risk assessment"
+    ],
+    "correct_answer": "Taking preventive action in the face of uncertainty"
+  },
+  {
+    "id": 66,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "easy",
+    "question": "What is a 'sandbox' in AI safety testing?",
+    "options": [
+      "A controlled testing environment",
+      "A type of neural network architecture",
+      "A playground for AI algorithms",
+      "A secure data storage system"
+    ],
+    "correct_answer": "A controlled testing environment"
+  },
+  {
+    "id": 67,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "medium",
+    "question": "What does 'FATE' stand for in AI ethics?",
+    "options": [
+      "Fairness, Accountability, Transparency, Ethics",
+      "Future AI Technology Evaluation",
+      "Federated AI Training Environment",
+      "Fast Algorithmic Testing Engine"
+    ],
+    "correct_answer": "Fairness, Accountability, Transparency, Ethics"
+  },
+  {
+    "id": 68,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "medium",
+    "question": "What is the role of an 'AI Ethics Board'?",
+    "options": [
+      "To oversee ethical AI development and deployment",
+      "To board AI systems for training",
+      "To manage AI hardware ethics",
+      "To evaluate AI algorithm efficiency"
+    ],
+    "correct_answer": "To oversee ethical AI development and deployment"
+  },
+  {
+    "id": 69,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "hard",
+    "question": "What is the 'Orthogonality Thesis' in AI safety?",
+    "options": [
+      "Any level of intelligence can be combined with any goal",
+      "AI systems should have orthogonal decision processes",
+      "Intelligence and safety are orthogonal concerns",
+      "AI training should use orthogonal matrices"
+    ],
+    "correct_answer": "Any level of intelligence can be combined with any goal"
+  },
+  {
+    "id": 70,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "easy",
+    "question": "What is 'model cards' in responsible AI?",
+    "options": [
+      "Documentation for model capabilities and limitations",
+      "Hardware cards for AI processors",
+      "Credit cards for AI purchases",
+      "Identification cards for AI systems"
+    ],
+    "correct_answer": "Documentation for model capabilities and limitations"
+  },
+  {
+    "id": 71,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "medium",
+    "question": "What does 'red teaming' refer to in AI safety?",
+    "options": [
+      "Stress-testing AI systems by simulating attacks",
+      "Using red-colored teams for AI development",
+      "Testing AI with red-colored data",
+      "Emergency response teams for AI failures"
+    ],
+    "correct_answer": "Stress-testing AI systems by simulating attacks"
+  },
+  {
+    "id": 72,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "medium",
+    "question": "What is 'distributional shift' in AI safety context?",
+    "options": [
+      "When test data differs from training data",
+      "Shifting AI processing to different distributions",
+      "Changing the distribution of AI workloads",
+      "Shift in AI market share distribution"
+    ],
+    "correct_answer": "When test data differs from training data"
+  },
+  {
+    "id": 73,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "hard",
+    "question": "What is the 'right to explanation' in AI regulations?",
+    "options": [
+      "Users' right to understand AI decisions affecting them",
+      "AI's right to explain its actions",
+      "Right to explain AI algorithms publicly",
+      "Legal right to explain AI concepts"
+    ],
+    "correct_answer": "Users' right to understand AI decisions affecting them"
+  },
+  {
+    "id": 74,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "easy",
+    "question": "What is an 'AI impact assessment'?",
+    "options": [
+      "Evaluation of AI system's potential effects",
+      "Assessment of AI's computational impact",
+      "Measuring AI's environmental impact",
+      "Evaluating AI's economic impact only"
+    ],
+    "correct_answer": "Evaluation of AI system's potential effects"
+  },
+  {
+    "id": 75,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "medium",
+    "question": "What is 'specification gaming' in AI safety?",
+    "options": [
+      "AI exploiting loopholes in its specifications",
+      "Playing games with AI specifications",
+      "Gaming industry specifications for AI",
+      "Specifying games for AI training"
+    ],
+    "correct_answer": "AI exploiting loopholes in its specifications"
+  },
+  {
+    "id": 76,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "medium",
+    "question": "What does 'consentful AI' refer to?",
+    "options": [
+      "AI systems that respect user consent",
+      "AI that gives consent for data use",
+      "Mutual consent between AIs",
+      "Consent for AI to make decisions"
+    ],
+    "correct_answer": "AI systems that respect user consent"
+  },
+  {
+    "id": 77,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "hard",
+    "question": "What is the 'Bletchley Declaration' related to?",
+    "options": [
+      "International cooperation on AI safety",
+      "Declaration of AI independence",
+      "Historical AI development milestone",
+      "Declaration of AI rights"
+    ],
+    "correct_answer": "International cooperation on AI safety"
+  },
+  {
+    "id": 78,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "easy",
+    "question": "What is a 'kill switch' in AI safety?",
+    "options": [
+      "Emergency shutdown mechanism",
+      "Switch to kill AI processes",
+      "Circuit breaker for AI hardware",
+      "Software to terminate AI tasks"
+    ],
+    "correct_answer": "Emergency shutdown mechanism"
+  },
+  {
+    "id": 79,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "medium",
+    "question": "What is 'algorithmic accountability'?",
+    "options": [
+      "Holding developers responsible for algorithmic outcomes",
+      "AI algorithms being accountable to each other",
+      "Accountability for algorithm speed",
+      "Financial accountability for AI systems"
+    ],
+    "correct_answer": "Holding developers responsible for algorithmic outcomes"
+  },
+  {
+    "id": 80,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "medium",
+    "question": "What is the purpose of 'AI certification'?",
+    "options": [
+      "Formal verification of AI system safety and compliance",
+      "Certifying AI developers' skills",
+      "Certification for AI hardware",
+      "Quality certification for AI data"
+    ],
+    "correct_answer": "Formal verification of AI system safety and compliance"
+  },
+  {
+    "id": 81,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "hard",
+    "question": "What is 'mesa-optimization' in AI safety?",
+    "options": [
+      "When AI develops internal optimization processes",
+      "Optimizing mesa-level neural networks",
+      "Multi-level optimization strategies",
+      "Optimization for mesa-scale problems"
+    ],
+    "correct_answer": "When AI develops internal optimization processes"
+  },
+  {
+    "id": 82,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "easy",
+    "question": "What is 'data sovereignty' in AI context?",
+    "options": [
+      "Control over how data is collected and used",
+      "Sovereign data for AI training",
+      "Data ownership by governments",
+      "AI's control over its own data"
+    ],
+    "correct_answer": "Control over how data is collected and used"
+  },
+  {
+    "id": 83,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "medium",
+    "question": "What are 'AI safety standards'?",
+    "options": [
+      "Guidelines for safe AI development and deployment",
+      "Standards for AI processing speed",
+      "Safety standards for AI hardware",
+      "Standards for AI energy consumption"
+    ],
+    "correct_answer": "Guidelines for safe AI development and deployment"
+  },
+  {
+    "id": 84,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "medium",
+    "question": "What is 'out-of-distribution detection'?",
+    "options": [
+      "Identifying inputs different from training data",
+      "Detecting data outside geographic distribution",
+      "Finding distribution errors in datasets",
+      "Detecting when AI distributes outputs"
+    ],
+    "correct_answer": "Identifying inputs different from training data"
+  },
+  {
+    "id": 85,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "hard",
+    "question": "What is the 'black box problem' in AI?",
+    "options": [
+      "Difficulty understanding how AI reaches decisions",
+      "Problem with black-colored AI hardware",
+      "Issue with unlabeled training data",
+      "Problem of AI working in dark environments"
+    ],
+    "correct_answer": "Difficulty understanding how AI reaches decisions"
+  },
+  {
+    "id": 86,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "easy",
+    "question": "What is an 'AI ethics framework'?",
+    "options": [
+      "Structured approach to ethical AI development",
+      "Framework for AI algorithm design",
+      "Structural framework for AI hardware",
+      "Framework for AI testing environments"
+    ],
+    "correct_answer": "Structured approach to ethical AI development"
+  },
+  {
+    "id": 87,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "medium",
+    "question": "What is 'adversarial robustness'?",
+    "options": [
+      "Resistance to malicious inputs designed to fool AI",
+      "Robustness against adversarial attacks in games",
+      "Strength of AI in competitive environments",
+      "Robustness against hardware failures"
+    ],
+    "correct_answer": "Resistance to malicious inputs designed to fool AI"
+  },
+  {
+    "id": 88,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "medium",
+    "question": "What is 'meaningful human control' in autonomous systems?",
+    "options": [
+      "Humans retaining ultimate authority and understanding",
+      "Complete human control over all AI operations",
+      "Humans controlling AI through meaningful gestures",
+      "AI systems controlling humans meaningfully"
+    ],
+    "correct_answer": "Humans retaining ultimate authority and understanding"
+  },
+  {
+    "id": 89,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "hard",
+    "question": "What is the 'Collusion Problem' in multi-agent AI systems?",
+    "options": [
+      "AI agents cooperating in ways harmful to humans",
+      "AI systems colluding to improve performance",
+      "Problem of AI agents communicating secretly",
+      "Collusion between AI developers and regulators"
+    ],
+    "correct_answer": "AI agents cooperating in ways harmful to humans"
+  },
+  {
+    "id": 90,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "easy",
+    "question": "What is 'fail-safe' design in AI systems?",
+    "options": [
+      "Design that defaults to safe state on failure",
+      "Design that never fails",
+      "Safety features that fail gracefully",
+      "Design with multiple failure points"
+    ],
+    "correct_answer": "Design that defaults to safe state on failure"
+  },
+  {
+    "id": 91,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "medium",
+    "question": "What is 'algorithmic transparency'?",
+    "options": [
+      "Ability to understand how algorithms make decisions",
+      "Transparent code in algorithms",
+      "Algorithms that are visually transparent",
+      "Transparency in algorithm selection"
+    ],
+    "correct_answer": "Ability to understand how algorithms make decisions"
+  },
+  {
+    "id": 92,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "medium",
+    "question": "What is 'AI liability'?",
+    "options": [
+      "Legal responsibility for AI system actions",
+      "AI's liability to make errors",
+      "Financial liability of AI companies",
+      "Liability insurance for AI systems"
+    ],
+    "correct_answer": "Legal responsibility for AI system actions"
+  },
+  {
+    "id": 93,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "hard",
+    "question": "What is 'goal misgeneralization' in AI?",
+    "options": [
+      "AI pursuing wrong goals that satisfy training criteria",
+      "Misgeneralizing goals across different domains",
+      "AI misunderstanding human goals",
+      "Generalization of goals to wrong contexts"
+    ],
+    "correct_answer": "AI pursuing wrong goals that satisfy training criteria"
+  },
+  {
+    "id": 94,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "easy",
+    "question": "What is 'privacy by design' in AI systems?",
+    "options": [
+      "Building privacy protections into AI from the start",
+      "Designing AI for private use only",
+      "Privacy-focused AI architecture design",
+      "Designing AI that respects user privacy settings"
+    ],
+    "correct_answer": "Building privacy protections into AI from the start"
+  },
+  {
+    "id": 95,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "medium",
+    "question": "What is 'algorithmic impact assessment'?",
+    "options": [
+      "Evaluating potential effects of algorithmic systems",
+      "Assessing impact of algorithms on processing speed",
+      "Impact of algorithms on hardware performance",
+      "Assessment of algorithm efficiency impact"
+    ],
+    "correct_answer": "Evaluating potential effects of algorithmic systems"
+  },
+  {
+    "id": 96,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "medium",
+    "question": "What is 'monitoring' in AI safety contexts?",
+    "options": [
+      "Continuous observation of AI system behavior",
+      "Monitoring AI training progress",
+      "Watching AI hardware performance",
+      "Monitoring AI energy consumption"
+    ],
+    "correct_answer": "Continuous observation of AI system behavior"
+  },
+  {
+    "id": 97,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "hard",
+    "question": "What is the 'contextual integrity' framework for privacy?",
+    "options": [
+      "Privacy appropriate to specific social contexts",
+      "Integrity of data across different contexts",
+      "Context-based data integrity checks",
+      "Framework for maintaining data context"
+    ],
+    "correct_answer": "Privacy appropriate to specific social contexts"
+  },
+  {
+    "id": 98,
+    "type": "text_mcq",
+    "category": "AI Governance",
+    "difficulty": "easy",
+    "question": "What is 'AI compliance'?",
+    "options": [
+      "Adherence to laws and regulations governing AI",
+      "Compliance with AI technical standards",
+      "AI systems complying with user commands",
+      "Compliance in AI training procedures"
+    ],
+    "correct_answer": "Adherence to laws and regulations governing AI"
+  },
+  {
+    "id": 99,
+    "type": "text_mcq",
+    "category": "AI Safety",
+    "difficulty": "medium",
+    "question": "What is 'interruptibility' in AI systems?",
+    "options": [
+      "Ability to safely interrupt AI operations",
+      "Capability to interrupt other AIs",
+      "Feature for interrupting AI training",
+      "Ability to pause AI processing temporarily"
+    ],
+    "correct_answer": "Ability to safely interrupt AI operations"
+  },
+  {
+    "id": 100,
+    "type": "text_mcq",
+    "category": "AI Ethics",
+    "difficulty": "medium",
+    "question": "What is 'value-sensitive design' in AI?",
+    "options": [
+      "Design approach that incorporates human values",
+      "Design sensitive to numerical values",
+      "AI that understands human values",
+      "Design based on value optimization"
+    ],
+    "correct_answer": "Design approach that incorporates human values"
+  }
+]

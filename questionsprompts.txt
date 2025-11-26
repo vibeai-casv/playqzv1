@@ -1,0 +1,184 @@
+Act as an expert AI Educator and Developer. I need you to generate a JSON dataset of 50 quiz questions for an application.
+
+**1. Output Format:**
+Return ONLY a raw JSON array. Do not wrap it in markdown code blocks (```json). Do not add conversational text before or after.
+
+**2. JSON Structure Object:**
+Each object in the array must follow this exact schema:
+{
+  "id": (integer, sequential starting from 11),
+  "type": (string, either "text_mcq", "image_identify_logo", or "image_identify_person"),
+  "category": (string, choose from: "Latest Developments", "AI Safety", "Robotics", "Quantum Computing", "Generative AI"),
+  "difficulty": (string, "easy", "medium", or "hard"),
+  "question": (string),
+  "imageUrl": (string, OPTIONAL: Only required if type is not "text_mcq". Use reliable, public Wikimedia Commons URLs ending in .jpg, .png, or .svg),
+  "options": (array of 4 strings),
+  "correct_answer": (string, MUST be an exact match to one of the options)
+}
+
+**3. Content Requirements:**
+- **Quantity:** Generate exactly 50 questions.
+- **Topics:** Balance the questions across these categories:
+   - Latest AI Developments (GPT-4, Gemini, Sora, Llama 3)
+   - AI Safety (Alignment, Bias, Hallucinations, Regulation)
+   - Robotics (Humanoids, Boston Dynamics, Sensors)
+   - Quantum Computing (Qubits, Superposition, Entanglement)
+- **Image Questions:** Include at least 10 questions that require an image (identifying logos of AI companies or famous AI scientists).
+- **Distractors:** Ensure the wrong options are plausible but clearly incorrect.
+
+**4. Quality Control:**
+- Ensure valid JSON syntax (close all brackets and braces).
+- Ensure the `correct_answer` is strictly present in the `options` array.
+
+
+
+
+
+I need a dataset of AI-related 'Identify the Logo' quiz questions in JSON format.
+
+Requirements:
+
+Format: Use the JSON structure below.
+
+Content: The question must show a logo of a famous AI company or Tool.
+
+Options: Provide 4 options. All 4 must be similar organizations (competitors) to make it challenging.
+
+Images: Use reliable, public URLs for the logos (preferably Wikimedia Commons or official GitHub assets that allow hotlinking).
+
+Quantity: Generate [INSERT NUMBER] questions.
+
+JSON Structure:
+
+JSON
+
+{
+  "id": 1,
+  "type": "image_identify_logo",
+  "category": "Brands",
+  "difficulty": "medium",
+  "question": "Identify the organization behind this logo.",
+  "imageUrl": "LINK_TO_LOGO_IMAGE",
+  "options": ["Competitor A", "Competitor B", "Correct Answer", "Competitor C"],
+  "correct_answer": "Correct Answer"
+}
+
+
+
+Act as an expert AI Historian and Tech Educator. I need a JSON dataset of quiz questions where the user must identify famous personalities in Artificial Intelligence, Computer Science, and Tech.
+
+**1. Output Format:**
+Return ONLY a raw JSON array. Do not wrap it in markdown code blocks. Do not add conversational text.
+
+**2. JSON Structure Object:**
+Each object must follow this exact schema:
+{
+  "id": (integer, sequential starting from 201),
+  "type": "image_identify_person",
+  "category": "Personalities",
+  "difficulty": (string, "easy", "medium", or "hard"),
+  "question": "Who is this figure, known for [SHORT 3-5 WORD DESCRIPTION]?",
+  "imageUrl": (string, MUST be a direct link to a Wikimedia Commons image ending in .jpg or .png. Do NOT use generic placeholder URLs.),
+  "options": (array of 4 names. 1 correct, 3 plausible distractors from the tech world),
+  "correct_answer": (string, MUST be an exact match to one of the options)
+}
+
+**3. Content Requirements:**
+- **Quantity:** Generate 20 questions.
+- **Subjects:** Focus on Turing Award winners, Deep Learning pioneers, CEOs of major AI companies, and historical figures.
+- **Specific Figures to Include:**
+   - The "Godfathers of AI" (Hinton, Bengio, LeCun)
+   - Founders (Sam Altman, Demis Hassabis, Elon Musk)
+   - Historical (Alan Turing, Ada Lovelace, Grace Hopper)
+   - Modern Researchers (Fei-Fei Li, Andrew Ng, Andrej Karpathy)
+- **Distractors:** If the answer is a female researcher, all options must be women. If the answer is a CEO, options should be other CEOs.
+
+**4. Example Output:**
+{
+  "id": 201,
+  "type": "image_identify_person",
+  "category": "Personalities",
+  "difficulty": "easy",
+  "question": "Who is this computer scientist, considered the father of theoretical computer science and AI?",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg",
+  "options": ["John von Neumann", "Alan Turing", "Charles Babbage", "Tim Berners-Lee"],
+  "correct_answer": "Alan Turing"
+}
+
+
+
+--------------------------------------------------
+
+Act as an expert AI Historian and Quiz Developer. I need a JSON dataset of "Identify the Personality" questions focusing on famous figures in Artificial Intelligence, Robotics, and Tech.
+
+**1. Output Format:**
+Return ONLY a raw JSON array. Do not wrap it in markdown code blocks.
+
+**2. JSON Structure:**
+Each object must follow this schema:
+{
+  "id": (integer, sequential starting from 51),
+  "type": "image_identify_person",
+  "category": "Personalities",
+  "difficulty": (string, "easy", "medium", or "hard"),
+  "question": (string, e.g., "Identify this Turing Award winner and 'Godfather of AI'."),
+  "imageUrl": (string, MUST be a direct URL to a public domain image, preferably from Wikimedia Commons, ending in .jpg or .png),
+  "options": (array of 4 strings. ONE is the correct name. THE OTHER THREE must be other famous AI/Tech personalities to serve as challenging distractors),
+  "correct_answer": (string, exact match to the correct option)
+}
+
+**3. Content Requirements:**
+- **Quantity:** Generate 20 high-quality questions.
+- **Subjects:** Focus on these specific groups:
+   - **The "Godfathers":** Geoffrey Hinton, Yann LeCun, Yoshua Bengio.
+   - **The CEOs:** Sam Altman (OpenAI), Demis Hassabis (DeepMind), Jensen Huang (NVIDIA), Satya Nadella (Microsoft).
+   - **The Researchers:** Fei-Fei Li (ImageNet), Andrew Ng (Coursera/Google Brain), Ian Goodfellow (GANs), Andrej Karpathy.
+   - **Historical Figures:** Alan Turing, Marvin Minsky, John McCarthy.
+   - **Allied Tech:** Elon Musk (Tesla/SpaceX), Boston Dynamics founders.
+
+**4. Distractor Logic (Crucial):**
+- Do NOT use random names like "John Doe."
+- If the answer is a **CEO**, the options must be **other CEOs**.
+- If the answer is a **Researcher**, the options must be **other Researchers**.
+- *Example:* If the answer is "Yann LeCun", the options should be ["Geoffrey Hinton", "Yann LeCun", "Yoshua Bengio", "Andrew Ng"].
+
+**5. Verification:**
+- Ensure the `imageUrl` is a real, working link to a specific person's photo.
+- Ensure the `correct_answer` is strictly present in the `options` array.
+
+
+
+
+[
+  {
+    "id": 51,
+    "type": "image_identify_person",
+    "category": "Personalities",
+    "difficulty": "medium",
+    "question": "Identify this computer scientist, known for creating ImageNet and spearheading the AI revolution in Computer Vision.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Fei-Fei_Li_2024.jpg/400px-Fei-Fei_Li_2024.jpg",
+    "options": [
+      "Daphne Koller",
+      "Fei-Fei Li",
+      "Mira Murati",
+      "Daniela Rus"
+    ],
+    "correct_answer": "Fei-Fei Li"
+  },
+  {
+    "id": 52,
+    "type": "image_identify_person",
+    "category": "Personalities",
+    "difficulty": "easy",
+    "question": "Who is this CEO of NVIDIA, often credited with providing the hardware engine for the modern AI boom?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Jensen_Huang_%28cropped%29.jpg/400px-Jensen_Huang_%28cropped%29.jpg",
+    "options": [
+      "Lisa Su",
+      "Jensen Huang",
+      "Tim Cook",
+      "Sundar Pichai"
+    ],
+    "correct_answer": "Jensen Huang"
+  }
+]
+

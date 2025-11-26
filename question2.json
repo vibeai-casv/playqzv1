@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "type": "text_mcq",
+    "category": "Fundamentals",
+    "difficulty": "easy",
+    "question": "In Machine Learning, what is the term for data that the model has never seen before, used to evaluate its performance?",
+    "options": [
+      "Training Data",
+      "Test Data",
+      "Feature Data",
+      "Raw Data"
+    ],
+    "correct_answer": "Test Data"
+  },
+  {
+    "id": 2,
+    "type": "text_mcq",
+    "category": "Fundamentals",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a type of Machine Learning?",
+    "options": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning",
+      "Deductive Learning"
+    ],
+    "correct_answer": "Deductive Learning"
+  },
+  {
+    "id": 3,
+    "type": "text_mcq",
+    "category": "LLMs",
+    "difficulty": "hard",
+    "question": "What does the 'P' stand for in 'GPT'?",
+    "options": [
+      "Processing",
+      "Pre-trained",
+      "Predictive",
+      "Programmed"
+    ],
+    "correct_answer": "Pre-trained"
+  },
+  {
+    "id": 4,
+    "type": "text_mcq",
+    "category": "LLMs",
+    "difficulty": "medium",
+    "question": "Which architecture is the foundation for most modern Large Language Models?",
+    "options": [
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks",
+      "Transformer",
+      "Decision Trees"
+    ],
+    "correct_answer": "Transformer"
+  },
+  {
+    "id": 5,
+    "type": "text_mcq",
+    "category": "LLMs",
+    "difficulty": "medium",
+    "question": "What technique do LLMs use to predict the next word in a sequence?",
+    "options": [
+      "Next Token Prediction",
+      "Word Sequencing",
+      "Text Completion",
+      "Language Guessing"
+    ],
+    "correct_answer": "Next Token Prediction"
+  },
+  {
+    "id": 6,
+    "type": "text_mcq",
+    "category": "Computer Vision",
+    "difficulty": "easy",
+    "question": "Which type of neural network is most commonly used for image recognition?",
+    "options": [
+      "CNN (Convolutional Neural Network)",
+      "RNN (Recurrent Neural Network)",
+      "LSTM (Long Short-Term Memory)",
+      "GAN (Generative Adversarial Network)"
+    ],
+    "correct_answer": "CNN (Convolutional Neural Network)"
+  },
+  {
+    "id": 7,
+    "type": "text_mcq",
+    "category": "Computer Vision",
+    "difficulty": "medium",
+    "question": "What does YOLO stand for in computer vision?",
+    "options": [
+      "You Only Look Once",
+      "Your Object Location Optimizer",
+      "Young Optimized Learning Object",
+      "Yield Oriented Local Operation"
+    ],
+    "correct_answer": "You Only Look Once"
+  },
+  {
+    "id": 8,
+    "type": "text_mcq",
+    "category": "Ethics",
+    "difficulty": "medium",
+    "question": "What is the term for AI systems making biased decisions based on training data?",
+    "options": [
+      "Algorithmic Bias",
+      "Machine Prejudice",
+      "Data Discrimination",
+      "AI Racism"
+    ],
+    "correct_answer": "Algorithmic Bias"
+  },
+  {
+    "id": 9,
+    "type": "text_mcq",
+    "category": "Applications",
+    "difficulty": "easy",
+    "question": "Which AI technology is used by Netflix and Amazon for product recommendations?",
+    "options": [
+      "Recommendation Systems",
+      "Predictive Analytics",
+      "Customer Profiling",
+      "Sales Optimization"
+    ],
+    "correct_answer": "Recommendation Systems"
+  },
+  {
+    "id": 10,
+    "type": "text_mcq",
+    "category": "Applications",
+    "difficulty": "medium",
+    "question": "What type of AI is used in self-driving cars?",
+    "options": [
+      "Reinforcement Learning",
+      "Computer Vision",
+      "Natural Language Processing",
+      "All of the above"
+    ],
+    "correct_answer": "All of the above"
+  },
+  {
+    "id": 11,
+    "type": "text_mcq",
+    "category": "Deep Learning",
+    "difficulty": "hard",
+    "question": "What is the name of the problem where gradients become too small during backpropagation?",
+    "options": [
+      "Vanishing Gradient Problem",
+      "Exploding Gradient Problem",
+      "Gradient Descent Issue",
+      "Backpropagation Failure"
+    ],
+    "correct_answer": "Vanishing Gradient Problem"
+  },
+  {
+    "id": 12,
+    "type": "text_mcq",
+    "category": "Deep Learning",
+    "difficulty": "medium",
+    "question": "Which activation function is commonly used in output layers for binary classification?",
+    "options": [
+      "Sigmoid",
+      "ReLU",
+      "Tanh",
+      "Leaky ReLU"
+    ],
+    "correct_answer": "Sigmoid"
+  },
+  {
+    "id": 13,
+    "type": "text_mcq",
+    "category": "Natural Language Processing",
+    "difficulty": "easy",
+    "question": "What does NLP stand for in AI?",
+    "options": [
+      "Natural Language Processing",
+      "Neural Language Programming",
+      "Network Learning Process",
+      "Native Linguistic Protocol"
+    ],
+    "correct_answer": "Natural Language Processing"
+  },
+  {
+    "id": 14,
+    "type": "text_mcq",
+    "category": "Natural Language Processing",
+    "difficulty": "medium",
+    "question": "Which technique converts words into numerical vectors?",
+    "options": [
+      "Word Embeddings",
+      "Text Vectorization",
+      "Language Encoding",
+      "Word Digitization"
+    ],
+    "correct_answer": "Word Embeddings"
+  },
+  {
+    "id": 15,
+    "type": "text_mcq",
+    "category": "Tools & Frameworks",
+    "difficulty": "easy",
+    "question": "Which Python library is most popular for Machine Learning?",
+    "options": [
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "All of the above"
+    ],
+    "correct_answer": "All of the above"
+  },
+  {
+    "id": 16,
+    "type": "text_mcq",
+    "category": "Tools & Frameworks",
+    "difficulty": "medium",
+    "question": "What is Jupyter Notebook primarily used for?",
+    "options": [
+      "Data analysis and visualization",
+      "Web development",
+      "Mobile app development",
+      "Game development"
+    ],
+    "correct_answer": "Data analysis and visualization"
+  },
+  {
+    "id": 17,
+    "type": "text_mcq",
+    "category": "AI History",
+    "difficulty": "medium",
+    "question": "In what year was the term 'Artificial Intelligence' first coined?",
+    "options": [
+      "1956",
+      "1965",
+      "1972",
+      "1980"
+    ],
+    "correct_answer": "1956"
+  },
+  {
+    "id": 18,
+    "type": "text_mcq",
+    "category": "AI History",
+    "difficulty": "hard",
+    "question": "Which famous test, proposed in 1950, determines if a machine can exhibit intelligent behavior indistinguishable from a human?",
+    "options": [
+      "The Voigt-Kampff Test",
+      "The Turing Test",
+      "The Lovelace Test",
+      "The Imitation Game"
+    ],
+    "correct_answer": "The Turing Test"
+  },
+  {
+    "id": 19,
+    "type": "text_mcq",
+    "category": "Generative AI",
+    "difficulty": "easy",
+    "question": "What does DALL-E generate?",
+    "options": [
+      "Images from text descriptions",
+      "Text from images",
+      "Music from text",
+      "Video from audio"
+    ],
+    "correct_answer": "Images from text descriptions"
+  },
+  {
+    "id": 20,
+    "type": "text_mcq",
+    "category": "Generative AI",
+    "difficulty": "medium",
+    "question": "What are the two networks in a GAN (Generative Adversarial Network)?",
+    "options": [
+      "Generator and Discriminator",
+      "Encoder and Decoder",
+      "Producer and Consumer",
+      "Creator and Evaluator"
+    ],
+    "correct_answer": "Generator and Discriminator"
+  },
+  {
+    "id": 21,
+    "type": "text_mcq",
+    "category": "Reinforcement Learning",
+    "difficulty": "medium",
+    "question": "In reinforcement learning, what is the name of the algorithm that uses a table to store state-action values?",
+    "options": [
+      "Q-Learning",
+      "Policy Gradients",
+      "Deep Q-Network",
+      "Actor-Critic"
+    ],
+    "correct_answer": "Q-Learning"
+  },
+  {
+    "id": 22,
+    "type": "text_mcq",
+    "category": "Reinforcement Learning",
+    "difficulty": "hard",
+    "question": "Which company's AI system defeated the world champion in Go?",
+    "options": [
+      "DeepMind's AlphaGo",
+      "OpenAI's Five",
+      "Google's Minerva",
+      "Microsoft's Tay"
+    ],
+    "correct_answer": "DeepMind's AlphaGo"
+  },
+  {
+    "id": 23,
+    "type": "text_mcq",
+    "category": "Neural Networks",
+    "difficulty": "easy",
+    "question": "What is the basic building block of a neural network?",
+    "options": [
+      "Neuron",
+      "Node",
+      "Processor",
+      "Calculator"
+    ],
+    "correct_answer": "Neuron"
+  },
+  {
+    "id": 24,
+    "type": "text_mcq",
+    "category": "Neural Networks",
+    "difficulty": "medium",
+    "question": "What process adjusts the weights in a neural network during training?",
+    "options": [
+      "Backpropagation",
+      "Forward propagation",
+      "Weight optimization",
+      "Gradient ascent"
+    ],
+    "correct_answer": "Backpropagation"
+  },
+  {
+    "id": 25,
+    "type": "text_mcq",
+    "category": "Data Science",
+    "difficulty": "easy",
+    "question": "What is the term for cleaning and preparing raw data for analysis?",
+    "options": [
+      "Data Wrangling",
+      "Data Mining",
+      "Data Storage",
+      "Data Collection"
+    ],
+    "correct_answer": "Data Wrangling"
+  },
+  {
+    "id": 26,
+    "type": "text_mcq",
+    "category": "Data Science",
+    "difficulty": "medium",
+    "question": "Which metric is used for evaluating classification models?",
+    "options": [
+      "Accuracy",
+      "Mean Squared Error",
+      "R-squared",
+      "All of the above"
+    ],
+    "correct_answer": "Accuracy"
+  },
+  {
+    "id": 27,
+    "type": "text_mcq",
+    "category": "Computer Vision",
+    "difficulty": "hard",
+    "question": "What does CNN use to detect features in images?",
+    "options": [
+      "Filters/Kernels",
+      "Layers",
+      "Neurons",
+      "Algorithms"
+    ],
+    "correct_answer": "Filters/Kernels"
+  },
+  {
+    "id": 28,
+    "type": "text_mcq",
+    "category": "Computer Vision",
+    "difficulty": "medium",
+    "question": "Which dataset is famous for image classification with 1000 classes?",
+    "options": [
+      "ImageNet",
+      "CIFAR-10",
+      "MNIST",
+      "COCO"
+    ],
+    "correct_answer": "ImageNet"
+  },
+  {
+    "id": 29,
+    "type": "text_mcq",
+    "category": "LLMs",
+    "difficulty": "hard",
+    "question": "What is the attention mechanism in transformers called?",
+    "options": [
+      "Self-Attention",
+      "Multi-Head Attention",
+      "Scaled Dot-Product Attention",
+      "All of the above"
+    ],
+    "correct_answer": "All of the above"
+  },
+  {
+    "id": 30,
+    "type": "text_mcq",
+    "category": "LLMs",
+    "difficulty": "medium",
+    "question": "What does 'tokenization' do in NLP?",
+    "options": [
+      "Splits text into smaller units",
+      "Converts text to numbers",
+      "Removes stop words",
+      "Identifies parts of speech"
+    ],
+    "correct_answer": "Splits text into smaller units"
+  },
+  {
+    "id": 31,
+    "type": "text_mcq",
+    "category": "Ethics",
+    "difficulty": "medium",
+    "question": "What is 'Explainable AI' (XAI)?",
+    "options": [
+      "AI that can explain its decisions",
+      "AI that teaches itself",
+      "AI that explains concepts to humans",
+      "AI that writes documentation"
+    ],
+    "correct_answer": "AI that can explain its decisions"
+  },
+  {
+    "id": 32,
+    "type": "text_mcq",
+    "category": "Ethics",
+    "difficulty": "hard",
+    "question": "What principle ensures AI systems treat all individuals fairly?",
+    "options": [
+      "Fairness",
+      "Transparency",
+      "Accountability",
+      "Privacy"
+    ],
+    "correct_answer": "Fairness"
+  },
+  {
+    "id": 33,
+    "type": "text_mcq",
+    "category": "Hardware",
+    "difficulty": "easy",
+    "question": "Which hardware component is most critical for training large Deep Learning models?",
+    "options": [
+      "CPU (Central Processing Unit)",
+      "GPU (Graphics Processing Unit)",
+      "SSD (Solid State Drive)",
+      "RAM (Random Access Memory)"
+    ],
+    "correct_answer": "GPU (Graphics Processing Unit)"
+  },
+  {
+    "id": 34,
+    "type": "text_mcq",
+    "category": "Hardware",
+    "difficulty": "medium",
+    "question": "What does TPU stand for?",
+    "options": [
+      "Tensor Processing Unit",
+      "Training Processing Unit",
+      "Text Processing Unit",
+      "Tensor Performance Unit"
+    ],
+    "correct_answer": "Tensor Processing Unit"
+  },
+  {
+    "id": 35,
+    "type": "text_mcq",
+    "category": "Applications",
+    "difficulty": "easy",
+    "question": "Which AI application converts speech to text?",
+    "options": [
+      "Speech Recognition",
+      "Text-to-Speech",
+      "Voice Synthesis",
+      "Audio Processing"
+    ],
+    "correct_answer": "Speech Recognition"
+  },
+  {
+    "id": 36,
+    "type": "text_mcq",
+    "category": "Applications",
+    "difficulty": "medium",
+    "question": "What is 'computer vision' used for?",
+    "options": [
+      "Understanding and analyzing images",
+      "Creating computer graphics",
+      "Designing user interfaces",
+      "Programming computers"
+    ],
+    "correct_answer": "Understanding and analyzing images"
+  },
+  {
+    "id": 37,
+    "type": "text_mcq",
+    "category": "Deep Learning",
+    "difficulty": "hard",
+    "question": "What is 'dropout' in neural networks?",
+    "options": [
+      "A regularization technique",
+      "A type of activation function",
+      "A weight initialization method",
+      "A loss function"
+    ],
+    "correct_answer": "A regularization technique"
+  },
+  {
+    "id": 38,
+    "type": "text_mcq",
+    "category": "Deep Learning",
+    "difficulty": "medium",
+    "question": "Which optimizer is commonly used in deep learning?",
+    "options": [
+      "Adam",
+      "SGD",
+      "RMSprop",
+      "All of the above"
+    ],
+    "correct_answer": "All of the above"
+  },
+  {
+    "id": 39,
+    "type": "text_mcq",
+    "category": "Natural Language Processing",
+    "difficulty": "hard",
+    "question": "What is 'BERT' in NLP?",
+    "options": [
+      "Bidirectional Encoder Representations from Transformers",
+      "Basic English Response Transformer",
+      "Binary Encoding and Recognition Technology",
+      "Best Entity Recognition Tool"
+    ],
+    "correct_answer": "Bidirectional Encoder Representations from Transformers"
+  },
+  {
+    "id": 40,
+    "type": "text_mcq",
+    "category": "Natural Language Processing",
+    "difficulty": "medium",
+    "question": "What does NER stand for in NLP?",
+    "options": [
+      "Named Entity Recognition",
+      "Natural Entity Recognition",
+      "Network Entity Relationship",
+      "Neural Encoding Representation"
+    ],
+    "correct_answer": "Named Entity Recognition"
+  },
+  {
+    "id": 41,
+    "type": "text_mcq",
+    "category": "Tools & Frameworks",
+    "difficulty": "medium",
+    "question": "Which library is specifically designed for natural language processing in Python?",
+    "options": [
+      "NLTK",
+      "SpaCy",
+      "Transformers",
+      "All of the above"
+    ],
+    "correct_answer": "All of the above"
+  },
+  {
+    "id": 42,
+    "type": "text_mcq",
+    "category": "Tools & Frameworks",
+    "difficulty": "easy",
+    "question": "What is Pandas primarily used for?",
+    "options": [
+      "Data manipulation and analysis",
+      "Machine learning models",
+      "Web development",
+      "Game development"
+    ],
+    "correct_answer": "Data manipulation and analysis"
+  },
+  {
+    "id": 43,
+    "type": "text_mcq",
+    "category": "AI History",
+    "difficulty": "medium",
+    "question": "Which AI winter occurred in the 1970s due to unfulfilled promises?",
+    "options": [
+      "First AI Winter",
+      "Second AI Winter",
+      "Digital Revolution",
+      "AI Spring"
+    ],
+    "correct_answer": "First AI Winter"
+  },
+  {
+    "id": 44,
+    "type": "text_mcq",
+    "category": "AI History",
+    "difficulty": "hard",
+    "question": "Who is considered the father of theoretical computer science and artificial intelligence?",
+    "options": [
+      "Alan Turing",
+      "John McCarthy",
+      "Marvin Minsky",
+      "Claude Shannon"
+    ],
+    "correct_answer": "Alan Turing"
+  },
+  {
+    "id": 45,
+    "type": "text_mcq",
+    "category": "Generative AI",
+    "difficulty": "medium",
+    "question": "What is 'stable diffusion'?",
+    "options": [
+      "A text-to-image model",
+      "A type of neural network",
+      "A training algorithm",
+      "A data processing technique"
+    ],
+    "correct_answer": "A text-to-image model"
+  },
+  {
+    "id": 46,
+    "type": "text_mcq",
+    "category": "Generative AI",
+    "difficulty": "hard",
+    "question": "What does 'latent space' refer to in generative models?",
+    "options": [
+      "A compressed representation of data",
+      "A hidden layer in neural networks",
+      "A storage space for models",
+      "A type of memory unit"
+    ],
+    "correct_answer": "A compressed representation of data"
+  },
+  {
+    "id": 47,
+    "type": "text_mcq",
+    "category": "Reinforcement Learning",
+    "difficulty": "easy",
+    "question": "What is the name of the agent's strategy in reinforcement learning?",
+    "options": [
+      "Policy",
+      "Strategy",
+      "Plan",
+      "Method"
+    ],
+    "correct_answer": "Policy"
+  },
+  {
+    "id": 48,
+    "type": "text_mcq",
+    "category": "Reinforcement Learning",
+    "difficulty": "medium",
+    "question": "What does the 'reward' represent in reinforcement learning?",
+    "options": [
+      "Feedback from the environment",
+      "The agent's goal",
+      "A punishment signal",
+      "Learning rate"
+    ],
+    "correct_answer": "Feedback from the environment"
+  },
+  {
+    "id": 49,
+    "type": "text_mcq",
+    "category": "Neural Networks",
+    "difficulty": "hard",
+    "question": "What is 'batch normalization' used for?",
+    "options": [
+      "Stabilizing training",
+      "Increasing model size",
+      "Reducing data size",
+      "Speeding up inference"
+    ],
+    "correct_answer": "Stabilizing training"
+  },
+  {
+    "id": 50,
+    "type": "text_mcq",
+    "category": "Neural Networks",
+    "difficulty": "medium",
+    "question": "What is the purpose of the loss function?",
+    "options": [
+      "Measure model performance",
+      "Update weights",
+      "Process data",
+      "Store parameters"
+    ],
+    "correct_answer": "Measure model performance"
+  }
+]
