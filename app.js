@@ -378,6 +378,12 @@ function initializeEventListeners() {
         showScreen('setup-screen');
     });
 
+    // Agreement checkbox
+    document.getElementById('agree-checkbox').addEventListener('change', (e) => {
+        const continueBtn = document.getElementById('splash-continue-btn');
+        continueBtn.disabled = !e.target.checked;
+    });
+
     // Setup screen
     document.getElementById('num-questions').addEventListener('input', handleNumQuestionsChange);
     document.getElementById('time-per-question').addEventListener('input', handleTimeChange);
