@@ -223,10 +223,27 @@
     <!-- Footer -->
     <footer class="app-footer">
         <p>&copy; 2025-2026 Centre of Excellence in Applied AI, CAS Vattamkulam</p>
-</footer>
+        <div class="visitor-display">
+            <p>Total Visitors: <span id="visitor-count">Loading...</span></p>
+        </div>
+    </footer>
 
+    <!-- GoatCounter Analytics -->
     <script data-goatcounter="https://vibeaicasv.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+    
+    <!-- Visible Visitor Counter using CountAPI -->
+    <script>
+        fetch('https://api.countapi.xyz/hit/vibeai-playqzv1/visits')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('visitor-count').textContent = data.value.toLocaleString();
+            })
+            .catch(error => {
+                document.getElementById('visitor-count').textContent = 'N/A';
+                console.error('Visitor count error:', error);
+            });
+    </script>
     <script src="app.js"></script>
 </body>
 
